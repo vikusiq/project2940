@@ -6,6 +6,9 @@ module AM2940(clk, DataInput, ACI, WCI, Instruction, ACO, WCO, Done, DataOut, Ad
 	output ACO, WCO, Done;
 	output [7:0] DataOut;
 	output [7:0] AddressOut;
-
+	
+	
 
 endmodule
+
+
