@@ -22,7 +22,7 @@ module InstructionDecoder(I, CR, PLCR, PLAR, PLWR, SELA, SELW, PLAC, ENA, INCA, 
   output reg DECW; //Decrement Word Counter
   
   output reg [1:0] SELDATA; //Data Multiplexer Select
-  output reg OEDATA; // Output Enable 
+  output reg OEDATA;  
   
   always@(I or CR ) begin
   casex({I,CR}) 
@@ -138,8 +138,5 @@ endmodule
 
 
 module test_InstructionDecoder;
-	//InstructionDecoder instructionDecoder();
-
-
-
+	//Nu chiar este ce de testat aici
 endmodule

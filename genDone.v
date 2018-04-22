@@ -1,11 +1,11 @@
 `define NBITS 8
 
 module genDone(AC, WC, WR, CR, WCin, done);
-  input [`NBITS-1:0] AC;
-  input [`NBITS-1:0] WC;
-  input [`NBITS-1:0] WR;
-  input [1:0] CR;
-  input WCin;
+  input [`NBITS-1:0] AC; //Address Counter
+  input [`NBITS-1:0] WC; //Word Counter
+  input [`NBITS-1:0] WR; //Word Register
+  input [1:0] CR; //Control Register
+  input WCin; //Word CarryIn
 
   output reg done;
 

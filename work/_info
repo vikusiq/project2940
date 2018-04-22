@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vAM2940
-Z0 !s110 1524424383
+Z0 !s110 1524433906
 !i10b 1
-!s100 D@E<eLY=J00AiX?2z`Y_d3
-IMd00Pa8Wob9Z>d`6WhT433
+!s100 ?J>gXVo9^gkDElKI5@7^Q1
+ITUJ6dUb;^JCad[S3]64=@3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/Vika/Desktop/project2940
-Z3 w1524424376
+Z3 w1524433887
 Z4 8C:\Users\Vika\Desktop\project2940\AM2940.v
 Z5 FC:\Users\Vika\Desktop\project2940\AM2940.v
 L0 1
@@ -23,7 +23,7 @@ Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z7 !s108 1524424383.000000
+Z7 !s108 1524433906.000000
 Z8 !s107 C:\Users\Vika\Desktop\project2940\AM2940.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Vika\Desktop\project2940\AM2940.v|
 !s101 -O0
@@ -37,7 +37,7 @@ R0
 IlddGR4@HOBgN=i9fN4>WT3
 R1
 R2
-Z11 w1524344899
+Z11 w1524428401
 Z12 8C:/Users/Vika/Desktop/project2940/counter.v
 Z13 FC:/Users/Vika/Desktop/project2940/counter.v
 L0 5
@@ -75,13 +75,13 @@ r1
 R10
 ndec@instuction
 vgenDone
-Z16 !s110 1524424382
+Z16 !s110 1524433905
 !i10b 1
 !s100 _gk8a>K<[B5<8G[:kWB_]1
 I`CAU3<^Z8QbI<L=ade6Pk1
 R1
 R2
-Z17 w1524338207
+Z17 w1524432566
 Z18 8C:/Users/Vika/Desktop/project2940/genDone.v
 Z19 FC:/Users/Vika/Desktop/project2940/genDone.v
 L0 3
@@ -89,7 +89,7 @@ R6
 r1
 !s85 0
 31
-Z20 !s108 1524424382.000000
+Z20 !s108 1524433905.000000
 Z21 !s107 C:/Users/Vika/Desktop/project2940/genDone.v|
 Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/project2940/genDone.v|
 !s101 -O0
@@ -99,14 +99,14 @@ ngen@done
 vInstructionDecoder
 R16
 !i10b 1
-!s100 J?UGkZGW0[h_0mK@nAdUG1
-INgV@k0c_Vh1dF6GlBlLYc0
+!s100 7=ARTB3@6;YRL7P><n0i93
+IXd7SDoE7946IP1L>i259<3
 R1
 R2
-Z23 w1524339377
+Z23 w1524430001
 Z24 8C:/Users/Vika/Desktop/project2940/decInstruction.v
 Z25 FC:/Users/Vika/Desktop/project2940/decInstruction.v
-L0 2
+L0 1
 R6
 r1
 !s85 0
@@ -119,7 +119,7 @@ Z27 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/projec
 R10
 n@instruction@decoder
 vmux12
-R0
+R16
 !i10b 1
 !s100 7EHbX5KG^m2e^7?X3MUWJ0
 Ie^CYVmPBFZXPaSR^`2ezm0
@@ -140,7 +140,7 @@ Z32 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/projec
 !i113 1
 R10
 vmux13
-R0
+R16
 !i10b 1
 !s100 T[2bUa0MhkWGSg:X2mc=X1
 I3RL49XJK_4`6kT=CU<c6H1
@@ -154,30 +154,30 @@ R6
 r1
 !s85 0
 31
-R7
+R20
 Z36 !s107 C:/Users/Vika/Desktop/project2940/MUX1_3.v|
 Z37 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/project2940/MUX1_3.v|
 !s101 -O0
 !i113 1
 R10
 vreg3
-R0
+R16
 !i10b 1
 !s100 HU>V20]Lh`iQziZ6hHmjZ2
 IDZD?>Di2=d]34mT=;Q3da0
 R1
 R2
-Z38 w1524420710
-Z39 8C:/Users/Vika/Desktop/project2940/reg3.v
-Z40 FC:/Users/Vika/Desktop/project2940/reg3.v
+R11
+Z38 8C:/Users/Vika/Desktop/project2940/reg3.v
+Z39 FC:/Users/Vika/Desktop/project2940/reg3.v
 L0 1
 R6
 r1
 !s85 0
 31
-R7
-Z41 !s107 C:/Users/Vika/Desktop/project2940/reg3.v|
-Z42 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/project2940/reg3.v|
+R20
+Z40 !s107 C:/Users/Vika/Desktop/project2940/reg3.v|
+Z41 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/project2940/reg3.v|
 !s101 -O0
 !i113 1
 R10
@@ -188,31 +188,31 @@ R0
 IH_MZ[U=glo0T>]M;kkB5i0
 R1
 R2
-Z43 w1524418479
-Z44 8C:/Users/Vika/Desktop/project2940/reg8.v
-Z45 FC:/Users/Vika/Desktop/project2940/reg8.v
+R11
+Z42 8C:/Users/Vika/Desktop/project2940/reg8.v
+Z43 FC:/Users/Vika/Desktop/project2940/reg8.v
 L0 1
 R6
 r1
 !s85 0
 31
 R7
-Z46 !s107 C:/Users/Vika/Desktop/project2940/reg8.v|
-Z47 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/project2940/reg8.v|
+Z44 !s107 C:/Users/Vika/Desktop/project2940/reg8.v|
+Z45 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/project2940/reg8.v|
 !s101 -O0
 !i113 1
 R10
 vtest_AM2940
 R0
 !i10b 1
-!s100 Pmo;Gjd?ekiGP^]8P?kX<0
-IkBc`eDMe?79HY@J1C@eAG2
+!s100 hf_e_^n`2VIaSSPRP6<bM2
+I_YW=Zh0YBCkkb7XKDAnVQ3
 R1
 R2
 R3
 R4
 R5
-L0 70
+L0 71
 R6
 r1
 !s85 0
@@ -256,7 +256,7 @@ R2
 R17
 R18
 R19
-Z48 L0 42
+Z46 L0 42
 R6
 r1
 !s85 0
@@ -271,14 +271,14 @@ ntest_@gen@done
 vtest_InstructionDecoder
 R16
 !i10b 1
-!s100 MKE[;TFTNVHU^VaIo8TVJ2
-I9j>1g[j[F^T2I8hnDzFdP1
+!s100 <SEYcnd17WN>8;6nPiV8:3
+I0^ZQ3f_l0=KPa?j3@^[kL1
 R1
 R2
 R23
 R24
 R25
-L0 126
+L0 140
 R6
 r1
 !s85 0
@@ -291,7 +291,7 @@ R27
 R10
 ntest_@instruction@decoder
 vtest_Mux12
-R0
+R16
 !i10b 1
 !s100 Ao7NAJfZCdKI;Odk3RM5?2
 I@4Poc3mk1lRPalBnUdd`C3
@@ -300,7 +300,7 @@ R2
 R28
 R29
 R30
-Z49 L0 17
+Z47 L0 17
 R6
 r1
 !s85 0
@@ -313,7 +313,7 @@ R32
 R10
 ntest_@mux12
 vtest_Mux13
-R0
+R16
 !i10b 1
 !s100 m^MjCRRXc8nVhWTLzhUDK0
 IgOY6aa@bPiX`jODCmcK;91
@@ -322,12 +322,12 @@ R2
 R33
 R34
 R35
-Z50 L0 19
+Z48 L0 19
 R6
 r1
 !s85 0
 31
-R7
+R20
 R36
 R37
 !s101 -O0
@@ -335,23 +335,23 @@ R37
 R10
 ntest_@mux13
 vtest_Reg3
-R0
+R16
 !i10b 1
 !s100 ?T7T3kR9GEUA<T^N7<IMK1
 IH`^0NAkej4>@zhGAJBSng2
 R1
 R2
+R11
 R38
 R39
-R40
-Z51 L0 12
+Z49 L0 12
 R6
 r1
 !s85 0
 31
-R7
+R20
+R40
 R41
-R42
 !s101 -O0
 !i113 1
 R10
@@ -363,17 +363,17 @@ R0
 INF9eDmWOg`F2h3io0A1gh1
 R1
 R2
+R11
+R42
 R43
-R44
-R45
-R51
+R49
 R6
 r1
 !s85 0
 31
 R7
-R46
-R47
+R44
+R45
 !s101 -O0
 !i113 1
 R10
@@ -388,7 +388,7 @@ R2
 w1524310340
 R18
 R19
-R48
+R46
 R6
 r1
 !s85 0
@@ -401,7 +401,7 @@ R22
 R10
 ntest@gen@done
 vtestMux12
-Z52 !s110 1524337982
+Z50 !s110 1524337982
 !i10b 1
 !s100 ZcH1T_OWOiEC:idTC`2HY1
 I5dKeJ?z:dYL9fi:fHiiT<3
@@ -410,12 +410,12 @@ R2
 w1524309738
 R29
 R30
-R49
+R47
 R6
 r1
 !s85 0
 31
-Z53 !s108 1524337982.000000
+Z51 !s108 1524337982.000000
 R31
 R32
 !s101 -O0
@@ -423,7 +423,7 @@ R32
 R10
 ntest@mux12
 vtestMux13
-R52
+R50
 !i10b 1
 !s100 EddB=zJ`RQ@zcaa`V<3>S3
 I[<>9m@<:8fW3k@k_[BcdE2
@@ -432,12 +432,12 @@ R2
 w1524309873
 R34
 R35
-R50
+R48
 R6
 r1
 !s85 0
 31
-R53
+R51
 R36
 R37
 !s101 -O0
@@ -445,43 +445,43 @@ R37
 R10
 ntest@mux13
 vtestReg3
-R52
+R50
 !i10b 1
 !s100 cZ3TF6S:KAB61aa2>QhHD0
 IcEh2Z:hz:KEn[i@nMgWAS2
 R1
 R2
-Z54 w1522024764
+Z52 w1522024764
+R38
 R39
-R40
-R51
+R49
 R6
 r1
 !s85 0
 31
-R53
+R51
+R40
 R41
-R42
 !s101 -O0
 !i113 1
 R10
 ntest@reg3
 vtestReg8
-R52
+R50
 !i10b 1
 !s100 dl6FjACmbVi_hLHV4<hiZ0
 IaJTT]I8OEeOShGo5lDoQ13
 R1
 R2
-R54
+R52
 8C:\Users\Vika\Desktop\project2940\reg8.v
 FC:\Users\Vika\Desktop\project2940\reg8.v
-R51
+R49
 R6
 r1
 !s85 0
 31
-R53
+R51
 !s107 C:\Users\Vika\Desktop\project2940\reg8.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Vika\Desktop\project2940\reg8.v|
 !s101 -O0

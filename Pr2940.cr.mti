@@ -6,6 +6,14 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	test_GenDone
 
+} {} {}} C:/Users/Vika/Desktop/project2940/counter.v {1 {vlog -work work -stats=none C:/Users/Vika/Desktop/project2940/counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Counter
+-- Compiling module test_Counter
+
+Top level modules:
+	test_Counter
+
 } {} {}} C:/Users/Vika/Desktop/project2940/MUX1_2.v {1 {vlog -work work -stats=none C:/Users/Vika/Desktop/project2940/MUX1_2.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module mux12
@@ -30,6 +38,15 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	test_Mux13
+
+} {} {}} C:/Users/Vika/Desktop/project2940/decInstruction.v {1 {vlog -work work -stats=none C:/Users/Vika/Desktop/project2940/decInstruction.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module InstructionDecoder
+-- Compiling module test_InstructionDecoder
+
+Top level modules:
+	InstructionDecoder
+	test_InstructionDecoder
 
 } {} {}} C:/Users/Vika/Desktop/project2940/reg8.v {1 {vlog -work work -stats=none C:/Users/Vika/Desktop/project2940/reg8.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
