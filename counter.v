@@ -71,22 +71,22 @@ module test_Counter;
         INC = 1'b0;
         DEC = 1'b1;     //DEC activ
       #20 
-	PL = 1'b1;	//PL activ
-	di = 8'hFF;	
+		PL = 1'b1;	//PL activ
+		di = 8'hFF;	
       #20 //ca rezultat la aceasta etapa, NU ar trebui sa fie semnalizat overflow
-	PL = 1'b0;
-	RES = 1'b1;	//Reset activ
-	EN = 1'b1;
-	INC = 1'b1;	//INC activ 
-	CarryIn = 1'b0; //carry activ
+		PL = 1'b0;
+		RES = 1'b1;	//Reset activ
+		EN = 1'b1;
+		INC = 1'b1;	//INC activ 
+		CarryIn = 1'b0; //carry activ
       #20
-	RES = 1'b0;
-	di = 8'h01;
-	PL = 1'b1;	
+		RES = 1'b0;
+		di = 8'h01;
+		PL = 1'b1;	
       #20
-	PL = 1'b0;
-	INC = 1'b0;
-	DEC = 1'b1;	
+		PL = 1'b0;
+		INC = 1'b0;
+		DEC = 1'b1;	
       #100 $finish;
     end
 endmodule

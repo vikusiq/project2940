@@ -3,10 +3,10 @@ module reg3(clk, PL, di, do);
   input [2:0] di;
   output reg [2:0] do;
   
-  always@(posedge clk ) begin
+  always@(posedge clk ) 
     if(PL)
       do<=di;
-      end
+     
 endmodule
 
 module test_Reg3;

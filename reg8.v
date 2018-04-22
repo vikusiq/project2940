@@ -3,10 +3,10 @@ module reg8(clk, PL, di, do);
   input [7:0] di;
   output reg [7:0] do;
   
-  always@(posedge clk ) begin
+  always@(posedge clk ) 
     if(PL)
-      do<=di;
-    end        
+      do <= di;
+	  
 endmodule
 
 module test_Reg8;
