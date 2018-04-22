@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vAM2940
-Z0 !s110 1524433906
+Z0 !s110 1524436167
 !i10b 1
 !s100 ?J>gXVo9^gkDElKI5@7^Q1
 ITUJ6dUb;^JCad[S3]64=@3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/Vika/Desktop/project2940
-Z3 w1524433887
+Z3 w1524435893
 Z4 8C:\Users\Vika\Desktop\project2940\AM2940.v
 Z5 FC:\Users\Vika\Desktop\project2940\AM2940.v
 L0 1
@@ -23,7 +23,7 @@ Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z7 !s108 1524433906.000000
+Z7 !s108 1524436167.000000
 Z8 !s107 C:\Users\Vika\Desktop\project2940\AM2940.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Vika\Desktop\project2940\AM2940.v|
 !s101 -O0
@@ -75,7 +75,7 @@ r1
 R10
 ndec@instuction
 vgenDone
-Z16 !s110 1524433905
+Z16 !s110 1524436166
 !i10b 1
 !s100 _gk8a>K<[B5<8G[:kWB_]1
 I`CAU3<^Z8QbI<L=ade6Pk1
@@ -89,7 +89,7 @@ R6
 r1
 !s85 0
 31
-Z20 !s108 1524433905.000000
+Z20 !s108 1524436166.000000
 Z21 !s107 C:/Users/Vika/Desktop/project2940/genDone.v|
 Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/project2940/genDone.v|
 !s101 -O0
@@ -99,11 +99,11 @@ ngen@done
 vInstructionDecoder
 R16
 !i10b 1
-!s100 7=ARTB3@6;YRL7P><n0i93
-IXd7SDoE7946IP1L>i259<3
+!s100 H1RhA@cDZ<_8?XaN9]Iiz0
+I8=fY@]jL0KNlgdWOGDXNg3
 R1
 R2
-Z23 w1524430001
+Z23 w1524436140
 Z24 8C:/Users/Vika/Desktop/project2940/decInstruction.v
 Z25 FC:/Users/Vika/Desktop/project2940/decInstruction.v
 L0 1
@@ -161,7 +161,7 @@ Z37 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Vika/Desktop/projec
 !i113 1
 R10
 vreg3
-R16
+R0
 !i10b 1
 !s100 HU>V20]Lh`iQziZ6hHmjZ2
 IDZD?>Di2=d]34mT=;Q3da0
@@ -205,8 +205,8 @@ R10
 vtest_AM2940
 R0
 !i10b 1
-!s100 hf_e_^n`2VIaSSPRP6<bM2
-I_YW=Zh0YBCkkb7XKDAnVQ3
+!s100 3C^f2^_kOO8hd?RFFAUJ[3
+IklHjfQgRHFJ1NKBT2FAmZ1
 R1
 R2
 R3
@@ -335,7 +335,7 @@ R37
 R10
 ntest_@mux13
 vtest_Reg3
-R16
+R0
 !i10b 1
 !s100 ?T7T3kR9GEUA<T^N7<IMK1
 IH`^0NAkej4>@zhGAJBSng2

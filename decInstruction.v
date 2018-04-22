@@ -50,7 +50,7 @@ module InstructionDecoder(I, CR, PLCR, PLAR, PLWR, SELA, SELW, PLAC, ENA, INCA, 
     //4              
     6'b011xxx: begin 
 			   PLCR=1'b0; PLAR=1'b0; PLWR=1'b0; SELA=1'bx;
-               SELW=1'bx; PLAC=1'b0; ENA=1'b0; INCA=1'bx; 
+               SELW=1'bx; PLAC=1'b0; ENA=1'b1; INCA=1'bx; 
                DECA=1'bx; PLWC=1'b0; RESW=1'b0; ENW=1'b0;
                INCW=1'bx; DECW=1'bx; SELDATA=2'b00; OEDATA=1'b1;
              end
@@ -72,7 +72,7 @@ module InstructionDecoder(I, CR, PLCR, PLAR, PLWR, SELA, SELW, PLAC, ENA, INCA, 
     //7              
     6'b101xxx: begin 
                PLCR=1'b0; PLAR=1'b1; PLWR=1'b0; SELA=1'b0;
-               SELW=1'bx; PLAC=1'b1; ENA=1'b0; INCA=1'bx; 
+               SELW=1'bx; PLAC=1'b1; ENA=1'b1; INCA=1'bx; 
                DECA=1'bx; PLWC=1'b0; RESW=1'b0; ENW=1'b0;
                INCW=1'bx; DECW=1'bx; SELDATA=2'bxx; OEDATA=1'b0;
              end

@@ -83,26 +83,41 @@ module test_AM2940;
 	
 	initial 
 		begin
-			#0
+			#0 //OK
 				clk = 1'b0;
 				Instruction = 3'b000;   //0.Write Control Register
 				WCI = 1'b0;
 				ACI = 1'b0;
-				DataInput = 8'b0000_1000;
-			#50 
-				Instruction = 3'b001;   //1.Read Control Register
-			#50 
-				Instruction = 3'b010;   //2.Read Word Counter
-			#50 
-				Instruction = 3'b011;   //3.Read Address Counter
-			#50 
-				Instruction = 3'b100;   //4.Reinitialize Counters
+				DataInput = 8'b0000_0011;
+
+			#50 //OK
+				Instruction = 3'b001;   //1.Read Control Register (rezultatul trebuie sa fie 8'b11111_011 = 8'hFB)
+
 			#50 
 				Instruction = 3'b101;   //5.Load Address
+				DataInput = 8'b1000_1000;
+				
+			#50 
+				Instruction = 3'b011;   //3.Read Address Counter
+				
+			
+			
+			
+			
+			#50 
+				Instruction = 3'b010;   //2.Read Word Counter
+
+			#50 
+				Instruction = 3'b100;   //4.Reinitialize Counters
+
+			
+
 			#50 
 				Instruction = 3'b110;   //6.Load Word Count
+
 			#50 
 				Instruction = 3'b111;	//7.Enable Counters
+
 			#100 $finish;
 		end
 endmodule
